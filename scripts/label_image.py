@@ -1,4 +1,5 @@
 # Copyright 2017 The TensorFlow Authors. All Rights Reserved.
+m# Copyright 2017 The TensorFlow Authors. All Rights Reserved.
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -73,8 +74,8 @@ def load_labels(label_file):
 
 
 if __name__ == "__main__":
-    rootdir = "MP/"
-    not_car_rootdir = "MP/not_car/"
+    rootdir = "..data/"
+    not_car_rootdir = "..data/not_car/"
     file_name = "tf_files/flower_photos/daisy/3475870145_685a19116d.jpg"
     model_file = "tf_files/retrained_graph.pb"
     label_file = "tf_files/retrained_labels.txt"
